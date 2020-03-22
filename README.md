@@ -1,5 +1,10 @@
-# SFND_Unscented_Kalman_Filter
+# Sensor Fusion Self-Driving Car Course - Unscented Kalman Filter Exercise
+
 Sensor Fusion UKF Highway Project Starter Code
+
+### Project Status:
+
+![issue_badge](https://img.shields.io/badge/build-Passing-green) ![issue_badge](https://img.shields.io/badge/UdacityRubric-Passing-green)
 
 <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
 
