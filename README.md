@@ -74,8 +74,14 @@ If you'd like to generate your own radar and lidar modify the code in `highway.h
 change how measurements are taken, for instance lidar markers could be the (x,y) center of bounding boxes by scanning the PCD environment
 and performing clustering. This is similar to what was done in Sensor Fusion Lidar Obstacle Detection.
 
-## Project Instructions and Rubric
+## 
 
-This information is only accessible by people who are already enrolled in Sensor Fusion. 
-If you are enrolled, see the project page in the classroom
-for instructions and the project rubric.
+---
+
+### Reference
+
+* [The Unscented Kalman Filter for Nonlinear Estimation](https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf)
+* [MatWorks - 2D FFT](https://kr.mathworks.com/help/matlab/ref/fft2.html)
+* [MatWorks - Constant False Alarm Rate (CFAR) Detection](https://kr.mathworks.com/help/phased/examples/constant-false-alarm-rate-cfar-detection.html)
+* [Radar Tutorial](https://www.radartutorial.eu/index.en.html)
+* [Udacity Sensor Fusion Nanodegree](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313)
