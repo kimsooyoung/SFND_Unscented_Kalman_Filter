@@ -172,8 +172,8 @@ void UKF::Prediction(double delta_t)
   // predicted state mean
   x_.fill(0.0);
   for (int i = 0; i < 2 * n_aug_ + 1; ++i)
-  { // iterate over sigma points
-    x_ = x_ + weights_(i) * Xsig_pred_.col(i);
+  {                                            // iterate over sigma points
+    x_ = x_ + weights_(i) * Xsig_pred_.col(i); // (5 * 1)
   }
 
   // predicted state covariance matrix
@@ -188,7 +188,7 @@ void UKF::Prediction(double delta_t)
     while (x_diff(3) < -M_PI)
       x_diff(3) += 2. * M_PI;
 
-    P_ = P_ + weights_(i) * x_diff * x_diff.transpose();
+    P_ = P_ + weights_(i) * x_diff * x_diff.transpose(); //(5 * 5)
   }
 }
 
